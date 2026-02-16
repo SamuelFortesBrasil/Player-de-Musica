@@ -1,0 +1,18 @@
+[
+  {
+    "caminho": "musicas/PowerMan.mp3",
+    "nome": "Mega Man Rock Force - Power Man OST"
+  },
+  {
+    "caminho": "musicas/PhotonMan.mp3",
+    "nome": "Mega Man Rock Force - Photon Man OST"
+  }, 
+   {
+    "caminho": "musicas/FlareMan.mp3",
+    "nome": "Mega Man Rock Force - Flare Man OST"
+  },
+    {
+    "caminho": "musicas/PulseMan.mp3",
+    "nome": "Mega Man Rock Force - Pulse Man OST"
+  }
+]

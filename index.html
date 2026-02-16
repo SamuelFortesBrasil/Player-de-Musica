@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body class="bg-info bg-gradient">
+    <div class="container d-flex flex-column justify-content-center align-items-center " id="interface-player">
+        <h1 class="text-light fw-bold fs-0 text-center m-5">Player de Música</h1>
+        <div class="bg-secondary p-5 rounded-1 align-items-center" id="divPlayer">
+            <div class="row col">
+                <img src="thumb.jpg" alt="thumb" class="img-fluid" id="thumb">
+            </div>
+            <audio src=" "></audio>
+            <p class="text-center text-light p-1" id="nomeMusica"> </p>
+            <!--Interface de Música-->
+            <input type="range" class="form-range" id="barraProgresso" min="0" value="0">
+            <div class="row">
+                <button class="btn btn-light col mx-2 controle" type="button" id="voltar"><i class="bi bi-caret-left-fill"></i></button>
+                <button class="btn btn-light col mx-2 controle" type="button" id="playPause"><i class="bi bi-play-fill"></i></button>
+                <button class="btn btn-light col mx-2 controle" type="button" id="avancar"><i class="bi bi-caret-right-fill"></i></button>
+            </div>
+            <!--Interface de controle-->
+        </div>
+    </div>
+    
+    <div class="container d-flex align-items-center justify-content-center flex-column p-3 m-2" id="aviso">
+        <button class="btn btn-warning"  data-bs-toggle="collapse" data-bs-target="#msg"  aria-expanded="false" aria-controls="msg" type="button"><i class="bi bi-info-circle"></i>  Sobre as Músicas e Imagem</button>
+        <div class="collapse" id="msg">
+            <p class="border border-dark p-2 m-2 rounded">Essas músicas e a imagem não são minhas. Fiz esse mini-projeto como método educacional, apenas isso, a ideia inclusive era adicionar mais músicas e mais thumbs de outros jogos para haver mais dinâmismo, porém para evitar violar mais direitos autorais prefiro manter o projeto nesse estado, mais ele está completo e funcional cumprindo seus objetivos.As músicas e a imagem são do jogo Mega Man Rock Force (2013) criado pelo grupo GoldwaterDLS</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
